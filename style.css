@@ -1,0 +1,116 @@
+*{
+    font-size: 16px;
+    font-family: "poppins";
+}
+body{
+    background-color: hsl(0, 100%, 74%);
+    background-image: url('bg-intro-desktop.png');
+    width:100% ;
+}
+.bdy{
+    display: flex;
+ justify-items: center;
+    margin: auto;padding: 150px;    
+}
+@media(max-width: 786px){
+    .bdy{
+        flex-direction: column;
+    }
+}
+@media(max-width: 786px){
+    body{
+        background-color: hsl(0, 100%, 74%);
+        background-image: url('bg-intro-mobile.png');   
+    }
+}
+@media(max-width: 786px){
+    .learn_to_code{       
+        margin: 10px;
+    }
+}
+@media(max-width: 786px){
+    .first-button{
+        width: 100px;
+        height: 80px; 
+        background-color:black;
+    }
+}
+@media(max-width: 786px){
+    .bdy{
+       justify-content: center;
+       margin-top: 0;
+        
+    }
+}
+@media(max-width: 786px){
+    p{
+       width: 80%;
+        
+    }
+}
+.learn_to_code{
+    width: 400px;
+    margin-top: 100px;
+    padding: 40px;
+}
+.trial{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+input{
+    width: 320px;
+    height: 4vh;
+    border:0.5px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+.first-button{
+    width: 400px;
+    height: 40px;
+    color: white ;
+    border:none;
+    background-color:hsl(248, 32%, 49%);
+    border-radius:5px;
+    margin-bottom: 30px;
+}
+
+.second-button{   
+    width: 340px;
+    height: 40px;
+    color: white ;
+    border:none;
+    background-color:hsl(154, 59%, 51%);
+    border-radius:5px;
+}
+form{
+    margin: auto;
+    width: 100%;
+    height: max-content;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: white;
+  
+}
+form p{
+    margin-left: 30px;
+}
+h1{
+    font-size: 40px;
+    color: white;
+}
+p{
+    color: white;
+}
+.click{
+    color: black;
+    font-size: 10px;
+    margin-right: 20px;
+    text-align: center;
+}
+a{
+    color: red;
+    font-size: 10px;
+    text-decoration: none;
+}
